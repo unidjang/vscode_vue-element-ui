@@ -54,6 +54,7 @@
       </el-table-column>
     </el-table>
     <el-button type="success" size="mini">添加</el-button>
+    
   </div>
 </template>
 
@@ -104,5 +105,3 @@ export default {
   },
 };
 </script>
-<style scoped>
-</style>

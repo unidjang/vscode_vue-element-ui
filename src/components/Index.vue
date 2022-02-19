@@ -9,6 +9,7 @@
         ></el-image>
       </el-carousel-item>
     </el-carousel>
+    <a href="#/test">点我访问test</a>
   </div>
 </template>
 

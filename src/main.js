@@ -6,6 +6,25 @@ import router from './router'
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 
+// 为了VForm加的
+import FormMaking from 'form-making'
+import 'form-making/dist/FormMaking.css'
+Vue.use(FormMaking)
+
+import {
+  GenerateForm,
+  MakingForm
+} from 'form-making'
+import 'form-making/dist/FormMaking.css'
+
+Vue.component(GenerateForm.name, GenerateForm)
+Vue.component(MakingForm.name, MakingForm)
+/* 或写为
+ * Vue.use(GenerateForm)
+ * Vue.use(MakingForm)
+ */
+
+// ======================为了element ui
 Vue.use(ElementUI);
 
 Vue.config.productionTip = false
